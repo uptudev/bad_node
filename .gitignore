@@ -1,0 +1,14 @@
+# Rust .gitignore written by uptu
+
+# No compiled binaries or dependencies
+debug/
+target/
+
+# Remove Cargo.lock due to project being an executable
+Cargo.lock
+
+# No backup rustfmt/cargo fmt files need to be synced.
+**/*.rs.bk
+
+# MSVC Windows builds of the Rust compiler generate these debug files
+*.pdb
