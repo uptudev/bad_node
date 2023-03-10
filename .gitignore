@@ -12,3 +12,8 @@ Cargo.lock
 
 # MSVC Windows builds of the Rust compiler generate these debug files
 *.pdb
+
+
+# Added by cargo
+
+/target
